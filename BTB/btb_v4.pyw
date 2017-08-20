@@ -106,8 +106,8 @@ def generate_colors(amount):
 def quit():
     for event in pygame.event.get(): 
         if event.type == pygame.QUIT:
-            pygame.quit()
-            break
+            global stopped
+            stopped = True
 
 def l_click():
     if pygame.mouse.get_pressed()[0] == 1:
@@ -389,7 +389,9 @@ text = None
 answer_pos = None
 set_pos = False
 
-while True:
+stopped = False
+
+while not stopped:
     quit()
 
     if current_scene == 'menu':
@@ -417,3 +419,5 @@ while True:
     window.blit(background, (0, 0))
     pygame.display.flip()
     pygame.time.delay(50)
+
+pygame.quit()
