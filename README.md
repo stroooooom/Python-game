@@ -1,1 +1,1 @@
-This game created with Python and cocos2d library
+This game created in Python with cocos2d library
