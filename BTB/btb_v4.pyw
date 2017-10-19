@@ -10,7 +10,8 @@ Created on Thu June 17 22:54:41 2017
 
 'Break The Brain'
 
-This is a game where played is needed to choose right color, which displayed word means.
+Rules of the game:
+Player is needed to choose color, which displayed word means.
 For example, on the screen will be word 'GREEN' (this word can be any color) which painted pink color.
 In the bottom of the screen will be shown some cubes (depending on level their amount can changes).
 Supposably we are on first level and we got 4 cubes. Let it have yellow, red, green and blue colors.
